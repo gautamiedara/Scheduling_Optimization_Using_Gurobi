@@ -11,5 +11,5 @@ Some of the scheduling problems we have seen in class apply integer programming 
 
 The problem consists of a total of 716 decision variables and 205 constraints. For us to generate a schedule that has 17 games, we have set our objective function to maximize the sum of all days of the week for each week and applied a strict constraint that forces this sum to be equal to 17. Since we have this constraint, we could have also chosen to minimize the objective function; there is no reason why one should be chosen over the other. However, there is a way in Gurobi to set this objective function to any random number, since the end goal is to generate a schedule that meets all the constraints.
 
-# NOTE :
+#### NOTE :
 Decision Variables, Objective function, Constraints are decribed in the python notebook.
